@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/hsnwhte/pluggle-strategies/main/assets/banner.svg" width="150" alt="Pluggle">
+
 # pluggle-strategies
 
 Curated, reviewed Transform strategies for
