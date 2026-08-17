@@ -7,7 +7,7 @@ from typing import TypeVar
 
 from pluggle.enums import ContentFormat
 from pluggle.exceptions import errors
-from pluggle.models.dto import TransformableData, TransformedData
+from pluggle.models.dto import StrategyMeta, TransformableData, TransformedData
 from pydantic import BaseModel, ValidationError, model_validator
 
 M = TypeVar("M", bound=BaseModel)
@@ -189,7 +189,9 @@ class Document(BaseModel):
     doc_body: DocBody
 
 
-class TransformStrategy8DExcelMapper001v1:
+class TransformStrategyLearnLeanSigma8DExcelMapper:
+    meta = StrategyMeta(name="learn-lean-sigma-8d-excel-mapper", version="v1.0")
+
     def __init__(self, *, target_format: ContentFormat, data: TransformableData):
         self.target_format = target_format
         self.data = data
