@@ -1,4 +1,4 @@
-# 8D Excel Mapper (001, v1)
+# Learn Lean Sigma 8D Excel Mapper (v1.0)
 
 Maps an 8D Problem Solving Excel workbook into structured JSON, ready for loading into a
 database or passing to another system.
@@ -67,7 +67,7 @@ pip install -e ".[xlsx]"
 ## Usage
 
 ```bash
-pluggle install-strategy --path 8d_excel_mapper_001_v1.py
+pluggle install-strategy --path learn-lean-sigma-8d-excel-mapper_v1.0.py
 # note the uid printed on install
 
 pluggle run \

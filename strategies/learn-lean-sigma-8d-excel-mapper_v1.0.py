@@ -5,11 +5,10 @@ import json
 from datetime import date, timedelta
 from typing import TypeVar
 
-from pydantic import BaseModel, ValidationError, model_validator
-
 from pluggle.enums import ContentFormat
 from pluggle.exceptions import errors
 from pluggle.models.dto import TransformableData, TransformedData
+from pydantic import BaseModel, ValidationError, model_validator
 
 M = TypeVar("M", bound=BaseModel)
 
