@@ -1,8 +1,8 @@
 {
     "strategies": {
         "learn-lean-sigma-8d-excel-mapper_v1.0": {
-            "file": "learn-lean-sigma-8d-excel-mapper_v1.0.py",
-            "doc": "learn-lean-sigma-8d-excel-mapper_v1.0.md",
+            "file": "strategies/learn-lean-sigma-8d-excel-mapper_v1.0.py",
+            "doc": "strategies/learn-lean-sigma-8d-excel-mapper_v1.0.md",
             "summary": "Maps a Learn Lean Sigma 8D Problem Solving Excel template into structured JSON.",
             "author": "hsnwhte",
             "source_hint": "xlsx",
